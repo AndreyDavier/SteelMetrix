@@ -1,0 +1,47 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^6.8.1",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "style-loader": "^3.3.3",
+    "swiper": "^10.3.1",
+    "webpack-stream": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "autoprefixer": "^10.4.13",
+    "browser-sync": "^2.27.10",
+    "cssnano": "^5.1.14",
+    "del": "^7.0.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-combine-media": "^0.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-image": "^6.3.1",
+    "gulp-notify": "^4.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-svg-sprite": "^2.0.0",
+    "gulp-uglify-es": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "postcss": "^8.4.19",
+    "sass": "^1.56.1"
+  }
+}

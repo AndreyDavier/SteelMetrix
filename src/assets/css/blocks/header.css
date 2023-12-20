@@ -1,0 +1,31 @@
+.nav-list {
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    justify-content: center;
+    margin-top: 41px;
+}
+
+.header-main {
+    display: flex;
+    gap: 350px;
+    margin-bottom: 18px;
+}
+
+.header-head {
+    margin-top: 14px;
+}
+
+.header-nav {
+    display: flex;
+    gap: 70px;
+}
+
+.nav-number {
+    margin-top: 41px;
+}
+
+.nav-select {
+    border: none;
+}
+

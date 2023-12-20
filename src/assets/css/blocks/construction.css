@@ -1,0 +1,35 @@
+.construction {
+    padding-top: 94px;
+    padding-bottom: 95px;
+    background-image: url(/img/back1.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+.construction-head-text {
+    width: 685px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    border-left: 5px solid #EB6329;
+}
+
+.construction-head-text p {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.construction-head-info {
+    width: 585px;
+    margin-bottom: 50px;
+}
+
+.construction-head-info p {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+}
