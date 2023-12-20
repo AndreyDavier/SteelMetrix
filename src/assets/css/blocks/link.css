@@ -1,0 +1,16 @@
+.link {
+    font-weight: 500;
+    transition: all 0.12s ease-in-out;
+}
+
+.link--grey {
+    color: #464646;
+}
+
+.link--grey:hover {
+    color: #EB6329;
+}
+
+.link--white {
+    color: #FFF;
+}
