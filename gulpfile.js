@@ -54,7 +54,7 @@ const paths = {
   },
 };
 async function includeHTML() {
-  return await gulp.src(
+  return  gulp.src(
     paths.html.src
   )
 
