@@ -1,31 +1,29 @@
-.nav-list {
+.header {
+    padding:  15px 0;
+}
+
+.header-list {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     align-content: center;
     justify-content: center;
-    margin-top: 41px;
 }
 
 .header-main {
     display: flex;
-    gap: 350px;
-    margin-bottom: 18px;
-}
-
-.header-head {
-    margin-top: 14px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-nav {
     display: flex;
-    gap: 70px;
 }
 
-.nav-number {
-    margin-top: 41px;
+.header-number {
+    margin-left: 70px;
 }
 
-.nav-select {
+.header-select {
     border: none;
 }
 

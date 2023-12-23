@@ -1,10 +1,9 @@
 @import "./base/normalize.css";
 @import "./base/generic.css";
-@import "./abstrack/viratible.css";
+@import "./abstrack/variables.css";
+@import "./blocks/container.css";
 @import "./blocks/header.css";
-@import "./fundomental/link.css";
+@import "./blocks/link.css";
 @import "./blocks/construction.css";
 @import "./blocks/examples.css";
-
-
-
+@import "./blocks/logo.css";
