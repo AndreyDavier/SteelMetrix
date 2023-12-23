@@ -7,6 +7,7 @@
 .examples-img {
     display: flex;
     gap: 40px;
+    justify-content: center;
 }
 
 .examples-construction {

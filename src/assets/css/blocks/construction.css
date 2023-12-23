@@ -33,3 +33,16 @@
     font-weight: 500;
     line-height: 130%;
 }
+
+.construction-button button {
+    cursor: pointer;
+    padding: 18px 22px 18px 22px;
+    background: #EB6329;
+    border: none;
+    height: 56px;
+}
+
+.construction-button {
+    display: flex;
+    gap: -3px;
+}
