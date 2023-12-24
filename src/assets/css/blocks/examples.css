@@ -4,7 +4,7 @@
     padding-bottom: 100px;
 }
 
-.examples-img {
+.examples-card {
     display: flex;
     gap: 40px;
     justify-content: center;
@@ -16,9 +16,32 @@
     align-items: center;
     background: #464646;
     padding-bottom: 17px;
+    position: relative;
 }
 
 .examples-link {
-    margin-top: 17px;
-    background-size: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.examples-text {
+    padding-top: 17px;
+    color: #ffffff;
+    transition: 0.15s;
+}
+
+.examples-construction:hover .examples-text {
+    color: #EB6329;
+}
+
+.examples-img {
+    filter: grayscale();
+    transition: 0.15s;
+}
+
+.examples-construction:hover .examples-img {
+    filter: none;
 }

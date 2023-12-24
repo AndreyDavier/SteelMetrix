@@ -3,7 +3,7 @@
     padding-bottom: 95px;
     background-image: url(/img/back1.jpg);
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: cover;
 }
 
 .construction-head-text {
@@ -34,15 +34,29 @@
     line-height: 130%;
 }
 
-.construction-button button {
+.construction-button {
     cursor: pointer;
-    padding: 18px 22px 18px 22px;
-    background: #EB6329;
     border: none;
-    height: 56px;
+    display: flex;
+    background: none;
 }
 
-.construction-button {
-    display: flex;
-    gap: -3px;
+.button-span {
+    padding: 18px 22px;
+    background: #EB6329;
+    height: 56px;
+    transition: 0.15s;
+}
+
+.construction-button:hover span {
+    background: #D24D14;
+}
+
+.header-svg {
+    color: #EB6329;
+    transition: 0.15s;
+}
+
+.construction-button:hover .header-svg {
+    color: #D24D14;
 }

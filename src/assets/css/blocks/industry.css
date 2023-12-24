@@ -1,0 +1,34 @@
+.industry {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.industry-header-span {
+    background: #EB6329;
+    padding: 18px 85px 18px 305px;
+    height: 60px;
+    width: 782px;
+    /* transition: 0.15s; */
+}
+
+.industry-header {
+    display: flex;
+    margin-left: calc(-50vw + 50%);
+}
+
+.industry-header-svg {
+    height: 60px;
+    color: #EB6329;
+}
+
+.industry-grid div {
+    width: 50px;
+    height: 50px;
+    background: #EB6329;
+}
+
+.industry-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
