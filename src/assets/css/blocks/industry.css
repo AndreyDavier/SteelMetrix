@@ -1,33 +1,3 @@
-.industry {
-    padding-top: 100px;
-    padding-bottom: 150px;
-}
-
-.industry-header-span {
-    background: #EB6329;
-    padding: 18px 85px 18px 105px;
-    height: 60px;
-    width: 782px;
-}
-
-.industry-header-span {
-    font-size: 34px;
-    font-weight: 700;
-    line-height: 100%;
-    letter-spacing: 1.02px;
-    text-transform: uppercase;
-}
-
-.industry-header {
-    display: flex;
-    margin-left: calc(-50vw + 50%);
-    margin-bottom: 50px;
-}
-
-.industry-header-svg {
-    height: 60px;
-    color: #EB6329;
-}
 
 .industry-grid {
     display: grid;

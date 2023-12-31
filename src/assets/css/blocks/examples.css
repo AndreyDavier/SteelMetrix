@@ -41,7 +41,6 @@
     filter: grayscale();
     transition: 0.15s;
 }
-
-.examples-construction:hover .examples-img {
-    filter: none;
+.examples-construction:hover .examples-img{
+    filter: none
 }
