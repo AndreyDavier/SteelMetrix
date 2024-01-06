@@ -1,0 +1,98 @@
+.construction-cycle {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.construction-cycle-head {
+    color: #464646;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 1.02px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.construction-cycle-list {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.construction-cycle-card {
+    width: 412px;
+}
+
+.construction-cycle-title {
+    color: #464646;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.construction-cycle-card-info {
+    color: #464646;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.construction-cycle-stages-list {
+    display: flex;
+}
+
+.stages-number {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+}
+
+.construction-cycle-stages-item {
+    position: relative;
+}
+
+.stages-info-item {
+    border-left: 4px solid #EB6329;
+    width: 299px;
+    height: 79px;
+}
+
+.stages-info-list {
+    display: flex;
+    justify-content: center;
+    gap: 153px;
+    margin-bottom: 10px;
+}
+
+.stages-info-text {
+    margin: 0;
+    color: #EB6329;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-left: 10px;
+}
+
+.stages-info-more {
+    display: flex;
+    justify-content: center;
+    gap: 153px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.block-line {
+    display: flex;
+    gap: 424px;
+    margin-left: 106px;
+}
+
+.block-line-more {
+    display: flex;
+    gap: 424px;
+    margin-left: 318px;
+}
