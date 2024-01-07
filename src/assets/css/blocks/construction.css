@@ -33,30 +33,3 @@
     font-weight: 500;
     line-height: 130%;
 }
-
-.construction-button {
-    cursor: pointer;
-    border: none;
-    display: flex;
-    background: none;
-}
-
-.button-span {
-    padding: 18px 22px;
-    background: #EB6329;
-    height: 56px;
-    transition: 0.15s;
-}
-
-.construction-button:hover span {
-    background: #D24D14;
-}
-
-.header-svg {
-    color: #EB6329;
-    transition: 0.15s;
-}
-
-.construction-button:hover .header-svg {
-    color: #D24D14;
-}

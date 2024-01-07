@@ -1,0 +1,125 @@
+footer {
+    background: #1A1A1A;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-start {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 75px;
+    gap: 250px;
+}
+
+.footer-logo-img {
+    margin-bottom: 43px;
+}
+
+.footer-span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.footer-massenger-svg {
+    color: #FFF;
+}
+
+.footer-massengers {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-massengers-item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 119px;
+}
+
+.footer-massengers-item:hover .footer-massenger-svg {
+    color: #EB6329;
+}
+
+.footer-massengers-item:hover .footer-span {
+    color: #EB6329;
+}
+
+.footer-list-company {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-item-link:hover {
+    color: #EB6329;
+}
+
+.footer-number-link {
+    color: #EB6329;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.footer-number-text {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.36px;
+    margin-bottom: 39px;
+}
+
+.footer-location {
+    display: flex;
+    margin-top: 24px;
+}
+
+.footer-mail {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-location-text {
+    color: #D8D8D8;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    width: 242px;
+    margin: 0;
+    margin-left: 5px;
+}
+
+.documentation-link {
+    color: #EB6329;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.documentation-link:hover {
+    color: #F0F0F0;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.documentation-span {
+    opacity: 0.8;
+    color: #ABABAB;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.name-steelmettix {
+    color: #ABABAB;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+}
