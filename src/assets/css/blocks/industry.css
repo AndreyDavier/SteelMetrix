@@ -1,11 +1,10 @@
-
 .industry-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 40px;
-    grid-row-gap: 40px;
+    grid-template-columns: repeat(4, fit-content(100%));
+    gap: 40px;
+    margin: 0 auto;
     margin-bottom: 100px;
+    width: fit-content;
 }
 
 .grid-item {
@@ -35,8 +34,13 @@
 
 .stats-list {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 100px;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 40px;
+}
+
+.stats-item {
+    width: calc(25% - 10px);
 }
 
 .stats-number {
@@ -48,11 +52,10 @@
 }
 
 .stats-info {
-    color:  #464646;
+    color: #464646;
     font-size: 28px;
     font-weight: 600;
     line-height: 120%;
-    width: 285px;
     padding-left: 11px;
     border-left: 5px solid #EB6329;
     height: 100px;

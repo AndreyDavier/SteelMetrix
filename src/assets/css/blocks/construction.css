@@ -6,6 +6,7 @@
     background-size: cover;
 }
 
+
 .construction-head-text {
     width: 685px;
     margin-bottom: 30px;
@@ -32,4 +33,7 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 130%;
+}
+.construction-button{
+    margin-bottom: 70px;
 }

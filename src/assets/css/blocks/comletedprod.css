@@ -1,16 +1,20 @@
 .completed-project {
     background: #464646;
-    height: 970px;
 }
 
 .completed-project-card {
     margin-top: 50px;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(6, fit-content(100%));
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .completed-project-item {
     position: relative;
+    width: 220px;
+    height: 300px;
 }
 
 .completed-project-link {
@@ -40,8 +44,8 @@
 }
 
 .completed-project-img {
-    width: 219px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
     filter: grayscale(1);
     transition: 0.15s;
 }
@@ -52,14 +56,13 @@
 
 .completed-project-all {
     display: flex;
+    justify-content: center;
 }
 
 .completed-project-all {
-    margin-left: 600px;
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-top: 40px;
 }
 
 .all-link {

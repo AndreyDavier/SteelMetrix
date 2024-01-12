@@ -39,6 +39,8 @@
 
 .construction-cycle-stages-list {
     display: flex;
+    justify-content: center;
+    margin-top: 301px;
 }
 
 .stages-number {
@@ -51,8 +53,22 @@
     top: 20%;
 }
 
+.construction-cycle-model {
+    position: relative;
+}
+
 .construction-cycle-stages-item {
     position: relative;
+}
+
+.construction-cycle-svgiknfo {
+    position: absolute;
+    top: -250px;
+}
+
+.stages-svg {
+    margin-left: 95px;
+    /* margin-top: 10px; */
 }
 
 .stages-info-item {
@@ -63,9 +79,9 @@
 
 .stages-info-list {
     display: flex;
-    justify-content: center;
     gap: 153px;
     margin-bottom: 10px;
+    justify-content: center;
 }
 
 .stages-info-text {
@@ -88,11 +104,16 @@
 .block-line {
     display: flex;
     gap: 424px;
-    margin-left: 100px;
+    margin-left: 280px;
 }
 
 .block-line-more {
     display: flex;
     gap: 424px;
     margin-left: 318px;
+}
+
+.construction-cycle-header {
+    width: 938px;
+    padding-left: 280px;
 }
