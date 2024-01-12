@@ -114,6 +114,52 @@
 }
 
 .construction-cycle-header {
+    padding-left: 200px;
     width: 938px;
-    padding-left: 280px;
+}
+
+.construction-cycle-stages-item {
+    position: relative;
+}
+
+.construction-cycle-stages-item span {
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    left: 45%;
+    top: 25%;
+}
+.construction-cycle-item{
+    position: relative;
+}
+.construction-cycle-stages-info{
+    position: absolute;
+    top: -180px;
+}
+
+.construction-cycle-stages-text {
+    border-left: 4px solid #EB6329;
+    height: 79px;
+}
+
+.construction-cycle-stages-text p {
+    color: #EB6329;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 120%;
+    width: 285px;
+    margin-left: 5px;
+}
+
+.construction-cycle-stages-info svg {
+    margin-left: 100px;
+}
+.construction-cycle-stages-list{
+    display: flex;
+    margin-bottom: 200px;
+}
+.more{
+    top: 65px;
 }
