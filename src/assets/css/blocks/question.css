@@ -13,6 +13,8 @@
     font-weight: 700;
     line-height: 130%;
     color: #FFF;
+    width: 597px;
+
 }
 
 .questions-button-list {
@@ -46,4 +48,11 @@
 
 .questions-button-item:hover .questions-button-link {
     color: #EB6329;
+}
+
+@media (max-width:1336px) {
+    .questions-head {
+        font-size: 30px;
+        width: 497px;
+    }
 }

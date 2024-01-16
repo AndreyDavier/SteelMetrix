@@ -49,3 +49,18 @@
     margin: 0;
     margin-left: 82px;
 }
+
+@media (max-width:1336px) {
+    .advantages-header {
+        font-size: 30px;
+    }
+    .advantages-title-text{
+        font-size: 24px;
+    }
+    .advantages-info{
+        font-size: 18px;
+    }
+    .advantages-item{
+        width: 358px;
+    }
+}

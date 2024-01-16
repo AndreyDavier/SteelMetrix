@@ -29,8 +29,15 @@
 
 .examples-text {
     padding-top: 17px;
-    color: #ffffff;
     transition: 0.15s;
+}
+
+.examples-text span {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
 }
 
 .examples-construction:hover .examples-text {
@@ -41,6 +48,21 @@
     filter: grayscale();
     transition: 0.15s;
 }
-.examples-construction:hover .examples-img{
+
+.examples-construction:hover .examples-img {
     filter: none
+}
+
+@media (max-width:1336px) {
+    .examples-card {
+        gap: 30px;
+    }
+
+    .examples-img {
+        width: 261px;
+        height: 169px;
+    }
+    .examples-text span {
+        font-size: 15px;       
+    }
 }

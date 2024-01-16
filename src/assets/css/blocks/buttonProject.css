@@ -10,6 +10,7 @@
     background: #EB6329;
     height: 56px;
     transition: 0.15s;
+    font-size: 20px;
 }
 
 .button:hover span {
@@ -23,4 +24,10 @@
 
 .button:hover .button-svg {
     color: #D24D14;
+}
+
+@media (max-width:1336px) {
+    .button-span {
+        font-size: 18px;
+    }
 }

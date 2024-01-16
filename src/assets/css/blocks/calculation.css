@@ -51,6 +51,33 @@
     background-position-x: 779px;
     background-position-y: 150px;
 }
-.calculation-list{
+
+.calculation-list {
     margin-bottom: 50px;
+}
+
+@media (max-width:1336px) {
+    .calculation-header {
+        font-size: 30px;
+    }
+
+    .get-calculation-title {
+        font-size: 24px;
+    }
+
+    .calculation-item svg {
+        width: 10px;
+        height: 22px;
+    }
+
+    .calculation-text-start,
+    .calculation-text-end {
+        font-size: 18px;
+    }
+
+    .calculation-info {
+        background-position-x: 679px;
+        background-size: 455px 512px ;
+    }
+
 }

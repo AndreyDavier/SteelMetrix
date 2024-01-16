@@ -31,6 +31,10 @@ footer {
     gap: 24px;
 }
 
+.footer-mail-link {
+    text-decoration: underline;
+}
+
 .footer-massengers-item {
     display: flex;
     gap: 5px;
@@ -122,4 +126,48 @@ footer {
     font-size: 14px;
     font-weight: 400;
     line-height: 100%;
+}
+
+@media (max-width:1336px) {
+    .footer-logo-img {
+        width: 220px;
+        height: 44px;
+    }
+
+    .footer-massenger-svg {
+        width: 20px;
+        height: 17px;
+    }
+
+    .footer-span,
+    .footer-item-link,
+    .footer-number-text,
+    .footer-mail-link,
+    .footer-location-text {
+        font-size: 15px;
+    }
+
+    .footer-number-link {
+        font-size: 24px;
+    }
+
+    .footer-start {
+        gap: 200px;
+    }
+
+    .footer-mail svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .footer-location svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .documentation-link,
+    .documentation-span,
+    .name-steelmettix{
+        font-size: 14px;
+    }
 }

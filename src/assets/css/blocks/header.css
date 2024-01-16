@@ -1,5 +1,5 @@
 .header {
-    padding:  15px 0;
+    padding: 15px 0;
 }
 
 .header-list {
@@ -27,3 +27,25 @@
     border: none;
 }
 
+.header-link {
+    color: #464646;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+
+@media (max-width:1336px) {
+    .header-list {
+        gap: 30px;
+    }
+
+    .logo-img {
+        width: 220px !important;
+        height: 44px !important;
+    }
+
+    .header-link {
+        font-size: 16px;
+    }
+}

@@ -35,22 +35,13 @@
     font-size: 22px;
     font-weight: 500;
     line-height: 120%;
+    width: 412px;
 }
 
 .construction-cycle-stages-list {
     display: flex;
     justify-content: center;
     margin-top: 301px;
-}
-
-.stages-number {
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 100%;
-    position: absolute;
-    left: 45%;
-    top: 20%;
 }
 
 .construction-cycle-model {
@@ -68,7 +59,6 @@
 
 .stages-svg {
     margin-left: 95px;
-    /* margin-top: 10px; */
 }
 
 .stages-info-item {
@@ -101,11 +91,6 @@
     margin-top: 10px;
 }
 
-.block-line {
-    display: flex;
-    gap: 424px;
-    margin-left: 280px;
-}
 
 .block-line-more {
     display: flex;
@@ -113,10 +98,6 @@
     margin-left: 318px;
 }
 
-.construction-cycle-header {
-    padding-left: 200px;
-    width: 938px;
-}
 
 .construction-cycle-stages-item {
     position: relative;
@@ -131,10 +112,12 @@
     left: 45%;
     top: 25%;
 }
-.construction-cycle-item{
+
+.construction-cycle-item {
     position: relative;
 }
-.construction-cycle-stages-info{
+
+.construction-cycle-stages-info {
     position: absolute;
     top: -180px;
 }
@@ -156,10 +139,64 @@
 .construction-cycle-stages-info svg {
     margin-left: 100px;
 }
-.construction-cycle-stages-list{
+
+.construction-cycle-stages-list {
     display: flex;
     margin-bottom: 200px;
 }
-.more{
+
+.more {
     top: 65px;
+}
+
+@media (max-width:1366px) {
+    .construction-cycle-head {
+        font-size: 30px;
+    }
+
+    .cycle-card-img {
+        width: 358px;
+        height: 289px;
+    }
+
+    .construction-cycle-title {
+        font-size: 24px;
+    }
+
+    .construction-cycle-card-info {
+        font-size: 18px;
+    }
+
+    .construction-cycle-stages-text p {
+        font-size: 18px;
+        width: 207px;
+    }
+
+    .construction-cycle-stages-text {
+        border-left: 3px solid #EB6329;
+        height: 67px;
+    }
+
+    .construction-cycle-stages-item svg {
+        width: 188px;
+        height: 62px;
+    }
+
+    .construction-cycle-stages-info svg {
+        height: 74px;
+    }
+
+    .construction-cycle-stages-item span {
+        font-size: 36px;
+    }
+
+    .construction-cycle-stages-info {
+        top: -150px;
+    }
+
+    .more {
+        top: 57px;
+    }
+
+
 }

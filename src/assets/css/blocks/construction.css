@@ -34,6 +34,26 @@
     font-weight: 500;
     line-height: 130%;
 }
-.construction-button{
+
+.construction-button {
     margin-bottom: 70px;
+}
+
+@media (max-width:1336px) {
+    .construction-head-text p {
+        font-size: 36px;
+    }
+
+    .construction-head-text {
+        width: 577px;
+    }
+
+    .construction-head-info p {
+        font-size: 18px;
+    }
+
+    .construction-head-info {
+        width: 552px;
+    }
+    
 }

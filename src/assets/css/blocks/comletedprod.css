@@ -30,7 +30,7 @@
     bottom: 25px;
     left: 15px;
     right: 45px;
-    width: 45%;
+    width: 155px;
 }
 
 .completed-project-span {
@@ -69,4 +69,23 @@
     font-size: 20px;
     font-weight: 700;
     line-height: 100%;
+}
+
+@media (max-width:1336px) {
+    .completed-project-item {
+        width: 189px;
+        height: 261px;
+    }
+    .completed-project-svg{
+        left: 160px;
+    }
+    .completed-project-span {
+        font-size: 15px;
+    }
+    .completed-project-text{
+        width: 139px;
+    }
+    .all-link{
+        font-size: 18px;
+    }
 }
