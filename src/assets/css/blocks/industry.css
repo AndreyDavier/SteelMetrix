@@ -31,6 +31,21 @@
     line-height: 120%;
 }
 
+.industry-next {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.industry-next a {
+    color: #464646;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+
 
 .stats-list {
     display: flex;
@@ -87,5 +102,42 @@
         font-size: 24px;
         height: 89px;
         border-left: 3px solid #EB6329;
+    }
+}
+
+@media (max-width:1024px) {
+    .display {
+        display: none;
+    }
+
+    .industry-grid {
+        grid-template-columns: repeat(2, fit-content(100%));
+    }
+
+    .grid-item {
+        width: 340px;
+        height: 210px;
+    }
+
+    .grid-head {
+        font-size: 20px;
+    }
+
+    .stats-list {
+        display: grid;
+        grid-template-columns: repeat(2, fit-content(100%));
+        gap: 120px;
+    }
+
+    .stats-info {
+        width: 248px;
+    }
+
+    .stats-item {
+        width: 250px;
+    }
+
+    .industry-next {
+        display: flex;
     }
 }

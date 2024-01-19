@@ -34,6 +34,10 @@
     line-height: 100%;
 }
 
+.header-nav svg {
+    display: none;
+}
+
 
 @media (max-width:1336px) {
     .header-list {
@@ -48,4 +52,16 @@
     .header-link {
         font-size: 16px;
     }
+}
+
+@media (max-width:1024px) {
+    .header-list {
+        display: none;
+    }
+
+    .header-nav svg {
+        display: block;
+        margin-left: 50px;
+    }
+
 }

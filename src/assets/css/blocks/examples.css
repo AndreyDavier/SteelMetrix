@@ -62,7 +62,20 @@
         width: 261px;
         height: 169px;
     }
+
     .examples-text span {
-        font-size: 15px;       
+        font-size: 15px;
+    }
+}
+
+@media (max-width:1024px) {
+    .examples-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .examples-img {
+        width: 100%;
+        height: 258px;
     }
 }

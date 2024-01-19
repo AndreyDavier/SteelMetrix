@@ -35,7 +35,6 @@
     font-size: 22px;
     font-weight: 500;
     line-height: 120%;
-    width: 412px;
 }
 
 .construction-cycle-stages-list {
@@ -149,7 +148,7 @@
     top: 65px;
 }
 
-@media (max-width:1366px) {
+@media (max-width:1336px) {
     .construction-cycle-head {
         font-size: 30px;
     }
@@ -157,6 +156,9 @@
     .cycle-card-img {
         width: 358px;
         height: 289px;
+    }
+    .construction-cycle-list{
+        gap: 30px;
     }
 
     .construction-cycle-title {

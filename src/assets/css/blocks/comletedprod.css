@@ -76,16 +76,33 @@
         width: 189px;
         height: 261px;
     }
-    .completed-project-svg{
+
+    .completed-project-svg {
         left: 160px;
     }
+
     .completed-project-span {
         font-size: 15px;
     }
-    .completed-project-text{
+
+    .completed-project-text {
         width: 139px;
     }
-    .all-link{
+
+    .all-link {
         font-size: 18px;
+    }
+}
+
+@media (max-width:1024px) {
+    .completed-project-card {
+       
+        grid-template-columns: repeat(3, fit-content(100%));
+       
+    }
+
+    .completed-project-item {
+        width: 240px;
+        height: px;
     }
 }
