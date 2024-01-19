@@ -157,7 +157,8 @@
         width: 358px;
         height: 289px;
     }
-    .construction-cycle-list{
+
+    .construction-cycle-list {
         gap: 30px;
     }
 
@@ -200,5 +201,16 @@
         top: 57px;
     }
 
+}
 
+@media (max-width:1024px) {
+    .construction-cycle-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .cycle-card-img {
+        width: 340px;
+        height: 274px;
+    }
 }

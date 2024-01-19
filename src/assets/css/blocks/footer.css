@@ -128,6 +128,16 @@ footer {
     line-height: 100%;
 }
 
+.youtube {
+    display: none;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.youtube svg {
+    color: #D8D8D8;
+}
+
 @media (max-width:1336px) {
     .footer-logo-img {
         width: 220px;
@@ -167,7 +177,31 @@ footer {
 
     .documentation-link,
     .documentation-span,
-    .name-steelmettix{
+    .name-steelmettix {
         font-size: 14px;
+    }
+}
+
+@media (max-width:1024px) {
+    .footer-start {
+        gap: 100px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-massengers {
+        display: none;
+    }
+    .youtube{
+        display: flex;
+    }
+    .documentation-span{
+        display: none
+    }
+    .footer-end-link{
+        width: 257px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 }
