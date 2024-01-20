@@ -6,19 +6,26 @@ footer {
 
 .footer-start {
     display: flex;
-    justify-content: space-around;
     margin-bottom: 75px;
-    gap: 250px;
+    justify-content: space-between;
 }
 
 .footer-logo-img {
     margin-bottom: 43px;
 }
 
+.footer-block-list {
+    display: flex;
+}
+
 .footer-span {
     font-size: 18px;
     font-weight: 500;
     line-height: 100%;
+}
+
+.footer-list-company {
+    margin-left: 50%;
 }
 
 .footer-massenger-svg {
@@ -161,9 +168,6 @@ footer {
         font-size: 24px;
     }
 
-    .footer-start {
-        gap: 200px;
-    }
 
     .footer-mail svg {
         width: 22px;
@@ -192,13 +196,16 @@ footer {
     .footer-massengers {
         display: none;
     }
-    .youtube{
+
+    .youtube {
         display: flex;
     }
-    .documentation-span{
+
+    .documentation-span {
         display: none
     }
-    .footer-end-link{
+
+    .footer-end-link {
         width: 257px;
         display: flex;
         flex-direction: column;

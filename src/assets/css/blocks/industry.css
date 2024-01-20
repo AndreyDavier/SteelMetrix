@@ -78,7 +78,7 @@
 
 @media (max-width:1336px) {
     .grid-item {
-        width: 261px;
+        width: 254px;
         height: 235px;
     }
 
@@ -103,6 +103,11 @@
         height: 89px;
         border-left: 3px solid #EB6329;
     }
+
+    .industry-grid {
+        gap: 30px;
+    }
+
 }
 
 @media (max-width:1024px) {

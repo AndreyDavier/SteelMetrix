@@ -136,7 +136,7 @@
 }
 
 .construction-cycle-stages-info svg {
-    margin-left: 100px;
+    margin-left: 40%;
 }
 
 .construction-cycle-stages-list {
@@ -181,8 +181,8 @@
     }
 
     .construction-cycle-stages-item svg {
-        width: 188px;
-        height: 62px;
+        width: 184px;
+        height: 60px;
     }
 
     .construction-cycle-stages-info svg {
@@ -209,6 +209,7 @@
         grid-template-columns: repeat(2, 1fr);
 
     }
+
     .cycle-card-img {
         width: 340px;
         height: 274px;
