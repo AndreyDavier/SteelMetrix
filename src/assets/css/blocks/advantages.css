@@ -23,7 +23,7 @@
 .advantages-item {
     background: #FFFFFF;
     padding: 50px 25px;
-    width: 412px;
+    max-width: 412px;
 }
 
 .advantages-title {
@@ -60,8 +60,8 @@
     .advantages-info{
         font-size: 18px;
     }
-    .advantages-item{
-        width: 358px;
+    .advantages-card-list{
+        gap: 30px;
     }
 }
 @media (max-width:1024px) {

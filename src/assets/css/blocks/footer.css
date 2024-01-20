@@ -187,10 +187,18 @@ footer {
 }
 
 @media (max-width:1024px) {
+    .footer-block-list{
+        flex-direction: column;
+        justify-content:center;
+    }
+    .footer-list-company {
+        margin-left: 0;
+    }
     .footer-start {
         gap: 100px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
     }
 
     .footer-massengers {

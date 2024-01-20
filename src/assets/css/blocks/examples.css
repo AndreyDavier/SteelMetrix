@@ -4,6 +4,11 @@
     padding-bottom: 100px;
 }
 
+.examples-img {
+    width: 100%;
+    height: 100%;
+}
+
 .examples-card {
     display: flex;
     gap: 40px;
@@ -59,7 +64,7 @@
     }
 
     .examples-img {
-        width: 261px;
+        width: 100%;
         height: 169px;
     }
 

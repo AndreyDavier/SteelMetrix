@@ -3,9 +3,9 @@
     padding-bottom: 100px;
     background-image: url(/img/Rectangle1.png);
     background-repeat: no-repeat;
-    background-position-x: 979px;
-    background-position-y: 270px;
-    background-size: 525px 640px;
+    background-position-x: 879px;
+    background-position-y: 267px;
+    background-size: 525px 641px;
 }
 
 .calculation-header {
@@ -74,8 +74,8 @@
     }
 
     .calculation {
-        background-position-x: 779px;
-        background-position-y: 250px;
+        background-position-x: 765px;
+        background-position-y: 253px;
         background-size: 455px 512px;
     }
 

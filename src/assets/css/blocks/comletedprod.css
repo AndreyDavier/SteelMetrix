@@ -11,10 +11,9 @@
     margin-bottom: 40px;
 }
 
+
 .completed-project-item {
     position: relative;
-    width: 220px;
-    height: 300px;
 }
 
 .completed-project-link {
@@ -73,8 +72,8 @@
 
 @media (max-width:1336px) {
     .completed-project-item {
-        width: 189px;
-        height: 261px;
+        max-width: 184px;
+        max-height: 261px;
     }
 
     .completed-project-svg {
@@ -96,13 +95,6 @@
 
 @media (max-width:1024px) {
     .completed-project-card {
-       
         grid-template-columns: repeat(3, fit-content(100%));
-       
-    }
-
-    .completed-project-item {
-        width: 240px;
-        height: px;
     }
 }

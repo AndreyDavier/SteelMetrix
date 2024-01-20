@@ -13,15 +13,22 @@
     margin-bottom: 50px;
 }
 
+.construction-cycle-card {
+    max-width: 410px;
+}
+
+.cycle-card-img {
+    width: 412px;
+    height: 289px;
+}
+
 .construction-cycle-list {
     display: flex;
     gap: 40px;
     margin-bottom: 100px;
 }
 
-.construction-cycle-card {
-    width: 412px;
-}
+
 
 .construction-cycle-title {
     color: #464646;
@@ -39,8 +46,9 @@
 
 .construction-cycle-stages-list {
     display: flex;
-    justify-content: center;
-    margin-top: 301px;
+    padding-top: 301px;
+    overflow: scroll;
+    padding-bottom: 200px;
 }
 
 .construction-cycle-model {
@@ -81,22 +89,6 @@
     line-height: 120%;
     margin-left: 10px;
 }
-
-.stages-info-more {
-    display: flex;
-    justify-content: center;
-    gap: 153px;
-    margin-left: 220px;
-    margin-top: 10px;
-}
-
-
-.block-line-more {
-    display: flex;
-    gap: 424px;
-    margin-left: 318px;
-}
-
 
 .construction-cycle-stages-item {
     position: relative;
@@ -139,10 +131,7 @@
     margin-left: 40%;
 }
 
-.construction-cycle-stages-list {
-    display: flex;
-    margin-bottom: 200px;
-}
+
 
 .more {
     top: 65px;
@@ -153,13 +142,13 @@
         font-size: 30px;
     }
 
-    .cycle-card-img {
-        width: 358px;
-        height: 289px;
-    }
-
     .construction-cycle-list {
         gap: 30px;
+    }
+
+    .cycle-card-img {
+        max-width: 348px;
+        height: 269px;
     }
 
     .construction-cycle-title {
@@ -207,11 +196,6 @@
     .construction-cycle-list {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-
-    }
-
-    .cycle-card-img {
-        width: 340px;
-        height: 274px;
+        justify-content: center;
     }
 }
