@@ -84,3 +84,10 @@
         height: 258px;
     }
 }
+
+@media (max-width:430px) {
+    .examples-card {
+        display: flex;
+        flex-direction: column;
+    }
+}

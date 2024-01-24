@@ -31,3 +31,9 @@
         font-size: 18px;
     }
 }
+
+@media (max-width:430px) {
+    .button-span {
+        padding: 17px 70px;
+    }
+}

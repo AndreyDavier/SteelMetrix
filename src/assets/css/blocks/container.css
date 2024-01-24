@@ -3,3 +3,14 @@
     padding: 0 var(--container-gap);
     margin: 0 auto;
 }
+
+@media(max-width:834px) {
+    .container{
+        padding: 0 57px;
+    }
+}
+@media(max-width:430px) {
+    .container{
+        padding: 0 45px;
+    }
+}

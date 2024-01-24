@@ -64,4 +64,26 @@
         margin-left: 50px;
     }
 
+    .header {
+        padding: 9px 0;
+    }
+
+}
+
+@media (max-width:834px) {
+    .logo-img {
+        width: 202px !important;
+        height: 40px !important;
+    }
+}
+
+@media (max-width:430px) {
+    .header-number {
+        display: none;
+    }
+
+    .logo-img {
+        width: 179px !important;
+        height: 36px !important;
+    }
 }

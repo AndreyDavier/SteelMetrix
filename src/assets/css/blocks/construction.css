@@ -67,3 +67,25 @@
         background-position-x: -450px;
     }
 }
+
+@media (max-width:834px) {
+    .construction-head-info {
+        width: 720px;
+    }
+
+    .construction-head-text {
+        width: 600px;
+    }
+}
+
+@media (max-width:430px) {
+    .construction-head-text {
+        width: 325px;
+    }
+    .construction-head-text p{
+        font-size: 26px;
+    }
+    .construction-head-info {
+        width: 340px;
+    }
+}
