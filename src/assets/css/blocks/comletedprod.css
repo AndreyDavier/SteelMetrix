@@ -85,7 +85,7 @@
     }
 
     .completed-project-text {
-        width: 139px;
+        width: 150px;
     }
 
     .all-link {
@@ -96,5 +96,22 @@
 @media (max-width:1024px) {
     .completed-project-card {
         grid-template-columns: repeat(3, fit-content(100%));
+    }
+
+    .completed-project-item:nth-child(n+10) {
+        display: none;
+    }
+}
+
+@media (max-width:430px) {
+    .completed-project-item:nth-child(n+7) {
+        display: none;
+    }
+    .completed-project-card { 
+        grid-template-columns: repeat(2, fit-content(100%));
+    }
+    .completed-project-svg {
+        left: 140px;
+        bottom: 10px;
     }
 }

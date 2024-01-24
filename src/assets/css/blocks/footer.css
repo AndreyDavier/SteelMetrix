@@ -220,3 +220,20 @@ footer {
         gap: 10px;
     }
 }
+@media (max-width:430px) {
+    .footer-start{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-massengers {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .youtube{
+        display: none;
+    }
+    .footer-end{
+        flex-direction: column;
+        gap: 15px;
+    }
+}

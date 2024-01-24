@@ -111,10 +111,6 @@
 }
 
 @media (max-width:1024px) {
-    .display {
-        display: none;
-    }
-
     .industry-grid {
         grid-template-columns: repeat(2, fit-content(100%));
     }
@@ -145,13 +141,18 @@
     .industry-next {
         display: flex;
     }
+
+    .grid-item:nth-child(2n+2) {
+        display: none;
+    }
 }
 
 @media (max-width:430px) {
-    .industry-grid{
+    .industry-grid {
         display: flex;
         flex-direction: column;
     }
+
     .stats-number {
         font-size: 30px;
     }
@@ -161,13 +162,16 @@
         height: 54px;
         border-left: 2px solid #EB6329;
     }
-    .stats-list{
+
+    .stats-list {
         gap: 16px;
     }
-    .stats-info{
+
+    .stats-info {
         width: 150px;
     }
-    .stats-item{
+
+    .stats-item {
         width: 150px;
     }
 }

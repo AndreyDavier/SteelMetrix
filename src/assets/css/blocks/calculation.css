@@ -93,3 +93,19 @@
     }
 
 }
+@media (max-width:430px) {
+    .calculation-header{
+        font-size: 24px;
+    }
+    .get-calculation-title{
+        font-size: 20px;
+    }
+    .calculation {
+        background-size: 340px 400px;
+        background-position-y: 1150px;
+    }
+    .calculation-button {
+        margin-bottom: 480px;
+    }
+
+}
