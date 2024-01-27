@@ -19,6 +19,9 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.header-block div{
+    margin-left: -1px;
+}
 
 @media (max-width:1336px) {
     .header-span {
@@ -30,6 +33,7 @@
     .header-block-svg {
         height: 57px;
     }
+    
 }
 
 @media (max-width:430px) {

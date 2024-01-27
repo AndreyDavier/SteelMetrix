@@ -1,11 +1,23 @@
 .calculation {
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.back-img {
+    width: 40%;
     background-image: url(/img/Rectangle1.png);
     background-repeat: no-repeat;
-    background-position-x: 879px;
-    background-position-y: 267px;
-    background-size: 525px 641px;
+    background-size: cover;
+    background-position: center;
+}
+
+.calculation-info {
+    display: flex;
+    gap: 10%;
+}
+
+.get-calculation {
+    width: 50%;
 }
 
 .calculation-header {
@@ -82,30 +94,39 @@
 }
 
 @media (max-width:1024px) {
-    .calculation {
-        background-position-x: 55%;
-        background-position-y: 900px;
-        background-size: 720px 875px;
+    .calculation-info {
+        flex-direction: column;
     }
 
-    .calculation-button {
-        margin-bottom: 950px;
+    .back-img {
+        height: 875px;
+        width: 100%;
+        margin-top: 50px;
     }
+
+    .get-calculation {
+        width: 100%;
+    }
+
 
 }
+
 @media (max-width:430px) {
-    .calculation-header{
+    .calculation-header {
         font-size: 24px;
     }
-    .get-calculation-title{
+
+    .get-calculation-title {
         font-size: 20px;
     }
-    .calculation {
-        background-size: 340px 400px;
-        background-position-y: 1150px;
-    }
-    .calculation-button {
-        margin-bottom: 480px;
+
+    .back-img {
+        height: 340px;
+        width: 100%;
+        margin-top: 50px;
     }
 
+    .construction-cycle-card {
+        width: 100%;
+    }
 }

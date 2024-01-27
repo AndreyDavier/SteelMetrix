@@ -14,17 +14,17 @@
 }
 
 .construction-cycle-card {
-    max-width: 410px;
+    width: 32%;
 }
 
 .cycle-card-img {
-    width: 412px;
+    max-width: 100%;
     height: 289px;
 }
 
 .construction-cycle-list {
     display: flex;
-    gap: 40px;
+    gap: 2%;
     margin-bottom: 100px;
 }
 
@@ -122,7 +122,8 @@
     font-size: 22px;
     font-weight: 600;
     line-height: 120%;
-    width: 285px;
+    max-width: 285px;
+    width: 100%;
     margin-left: 5px;
 }
 
@@ -131,8 +132,9 @@
 }
 
 .construction-cycle-stages-item svg {
-    max-width: 215px;
-    max-height: 72px;
+    max-width: 218px;
+    height: 72px;
+    width: 100%;
 }
 
 
@@ -141,17 +143,14 @@
     top: 65px;
 }
 
+
+
 @media (max-width:1336px) {
     .construction-cycle-head {
         font-size: 30px;
     }
 
-    .construction-cycle-list {
-        gap: 30px;
-    }
-
     .cycle-card-img {
-        max-width: 348px;
         height: 269px;
     }
 
@@ -186,16 +185,19 @@
     }
 
     .more {
-        top: 57px;
+        top: 62px;
     }
 
 }
 
 @media (max-width:1024px) {
     .construction-cycle-list {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .construction-cycle-card {
+        width: calc(50%-20px);
     }
 
     .construction-cycle-stages-item svg {
@@ -204,6 +206,7 @@
 
     .construction-cycle-stages-list {
         overflow: scroll;
+        margin-right: calc(-50vw + 50%);
     }
 }
 
@@ -213,13 +216,15 @@
         height: 60px;
     }
 }
+
 @media (max-width:430px) {
     .construction-cycle-head {
-       font-size: 24px;
+        font-size: 24px;
     }
-    .construction-cycle-list{
-        display: flex;
+
+    .construction-cycle-list {
         flex-direction: column;
+        flex-wrap: nowrap;
     }
-    
+
 }

@@ -20,6 +20,7 @@
 .button-svg {
     color: #EB6329;
     transition: 0.15s;
+    margin-left: -1px;
 }
 
 .button:hover .button-svg {

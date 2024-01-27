@@ -24,6 +24,7 @@
     background: #FFFFFF;
     padding: 50px 25px;
     max-width: 412px;
+    width: 100%;
 }
 
 .advantages-title {
@@ -54,28 +55,48 @@
     .advantages-header {
         font-size: 30px;
     }
-    .advantages-title-text{
+
+    .advantages-title-text {
         font-size: 24px;
     }
-    .advantages-info{
+
+    .advantages-info {
         font-size: 18px;
     }
-    .advantages-card-list{
+
+    .advantages-card-list {
         gap: 30px;
     }
+
+    .advantages-item {
+        padding: 40px 25px;
+    }
 }
+
 @media (max-width:1024px) {
     .advantages-card-list {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .advantages-item {
+        padding: 30px 25px;
+    }
 }
+
 @media (max-width:430px) {
-    .advantages-header{
+    .advantages-header {
         font-size: 24px;
     }
-    .advantages-card-list{
+
+    .advantages-card-list {
         display: flex;
         flex-direction: column;
     }
 
+    .advantages-item {
+        padding: 30px 40px;
+    }
+    .advantages-info{
+        font-size: 15px;
+    }
 }
