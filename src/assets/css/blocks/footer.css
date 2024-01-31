@@ -88,6 +88,14 @@ footer {
     margin-top: 24px;
 }
 
+.black-line {
+    width: 520px;
+    height: 1px;
+    opacity: 0.5;
+    background: #464646;
+    display: none;
+}
+
 .footer-mail {
     display: flex;
     align-items: center;
@@ -187,13 +195,15 @@ footer {
 }
 
 @media (max-width:1024px) {
-    .footer-block-list{
+    .footer-block-list {
         flex-direction: column;
-        justify-content:center;
+        justify-content: center;
     }
+
     .footer-list-company {
         margin-left: 0;
     }
+
     .footer-start {
         gap: 100px;
         display: grid;
@@ -202,11 +212,11 @@ footer {
     }
 
     .footer-massengers {
-        display: none;
+        display: flex;
     }
 
     .youtube {
-        display: flex;
+        display: none;
     }
 
     .documentation-span {
@@ -219,20 +229,45 @@ footer {
         flex-direction: column;
         gap: 10px;
     }
+
+    .footer-list-company {
+        flex-direction: row;
+    }
+
+    .footer-start {
+        gap: 0;
+    }
+
+    .footer-logo {
+        width: 220px;
+    }
+
+    .footer-contact-info {
+        margin-left: -215px;
+    }
+    .black-line{
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 }
+
 @media (max-width:430px) {
-    .footer-start{
+    .footer-start {
         display: flex;
         flex-direction: column;
     }
+
     .footer-massengers {
         display: flex;
         margin-bottom: 20px;
     }
-    .youtube{
+
+    .youtube {
         display: none;
     }
-    .footer-end{
+
+    .footer-end {
         flex-direction: column;
         gap: 15px;
     }
