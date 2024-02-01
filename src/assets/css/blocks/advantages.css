@@ -17,13 +17,12 @@
 .advantages-card-list {
     display: grid;
     gap: 40px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, calc(32% - 20px));
 }
 
 .advantages-item {
     background: #FFFFFF;
     padding: 50px 25px;
-    max-width: 412px;
     width: 100%;
 }
 
@@ -75,7 +74,8 @@
 
 @media (max-width:1024px) {
     .advantages-card-list {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, calc(50% - 15px));
+        gap: 30px;
     }
 
     .advantages-item {
@@ -96,7 +96,8 @@
     .advantages-item {
         padding: 30px 40px;
     }
-    .advantages-info{
+
+    .advantages-info {
         font-size: 15px;
     }
 }
