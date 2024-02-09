@@ -7,6 +7,7 @@
     background: #EB6329;
     padding: 18px 85px 18px 302px;
     height: 60px;
+    max-width: 920px;
 }
 
 .header-block {
@@ -19,13 +20,14 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.header-block div{
-    margin-left: -1px;
+
+.header-block div {
+    margin-left: -2px;
 }
 
 @media (max-width:1336px) {
     .header-span {
-        padding-left: 116px;
+        padding: 18px 85px 18px 116px;
         font-size: 30px;
         height: 57px;
     }
@@ -33,10 +35,29 @@
     .header-block-svg {
         height: 57px;
     }
-    
+
 }
 
-@media (max-width:430px) {
+@media (max-width:1024px) {
+    .header-span {
+        padding-left: 152px;
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width:660px) {
+    .header-span {
+        font-size: 24px;
+        padding: 18px 85px 18px 100px;
+        height: 72px;
+    }
+    .header-block-svg{
+        display: none;
+    }
+}
+
+@media (max-width:575px) {
     .header-span {
         padding: 18px 20px 60px 30px;
         font-size: 24px;
@@ -46,7 +67,8 @@
     .header-block-svg {
         display: none;
     }
-    .span-text{
+
+    .span-text {
         text-align: left;
     }
 }

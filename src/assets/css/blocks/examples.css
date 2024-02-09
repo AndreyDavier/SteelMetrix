@@ -85,7 +85,7 @@
     }
 }
 
-@media (max-width:430px) {
+@media (max-width:575px) {
     .examples-card {
         display: flex;
         flex-direction: column;

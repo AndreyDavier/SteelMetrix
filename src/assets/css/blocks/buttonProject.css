@@ -33,7 +33,7 @@
     }
 }
 
-@media (max-width:430px) {
+@media (max-width:575px) {
     .button-span {
         padding: 17px 65px;
     }
