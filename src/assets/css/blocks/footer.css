@@ -12,7 +12,7 @@ footer {
     grid-auto-rows: minmax(50px, auto);
     grid-row-gap: 0px;
     grid-template-areas:
-        "a b c"
+        "a b g"
         "d b c"
         "f f f";
     flex-grow: 1;
@@ -20,6 +20,10 @@ footer {
 
 .footer-logo {
     grid-area: a;
+}
+
+.footer-number {
+    grid-area: g;
 }
 
 .footer-list-company {
@@ -201,7 +205,7 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, auto);
         grid-template-areas:
-            "a c"
+            "a g"
             "b c"
             "d ."
             "f f";
@@ -233,7 +237,7 @@ footer {
 @media (max-width:834px) {
     .footer-block-list {
         grid-template-areas:
-            "a c"
+            "a g"
             "d c"
             "b b"
             "f f";
@@ -261,19 +265,39 @@ footer {
 
 @media (max-width:575px) {
     .footer-block-list {
-        display: flex;
-        flex-direction: column;
-        grid-template-areas: none;
-
+        grid-template-areas:
+            "a ."
+            "g ."
+            "d ."
+            "c c"
+            "b ."
+            "f ."
+        ;
+        gap: 0;
     }
 
     .footer-list-company {
         flex-direction: column;
         gap: 15px;
         margin-top: 50px;
-        border-top: none;
         max-width: 100%;
-        padding-top: 0;
+    }
+
+    .footer-end {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-end-link {
+        gap: 15px;
+    }
+
+    .footer-massengers {
+        margin-bottom: 20px;
+    }
+
+    .footer-logo {
+        margin-bottom: 15px;
     }
 
     .footer-end {
@@ -282,7 +306,8 @@ footer {
         margin-top: 20px;
         gap: 10px;
     }
-    .footer-end-link{
+
+    .footer-end-link {
         gap: 10px;
     }
 }
