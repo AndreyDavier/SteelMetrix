@@ -2,9 +2,10 @@
     max-width: var(--container-width);
     padding: 0 var(--container-gap);
     margin: 0 auto;
+    overflow: hidden;
 }
 
-@media (max-width:1024px) {
+@media (max-width:1200px) {
     .container{
         padding: 0 150px;
     }

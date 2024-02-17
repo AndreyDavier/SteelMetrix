@@ -27,14 +27,20 @@
     color: #D24D14;
 }
 
-@media (max-width:1336px) {
+@media (max-width:1400px) {
     .button-span {
         font-size: 18px;
     }
 }
 
-@media (max-width:575px) {
+@media (max-width:650px) {
     .button-span {
-        padding: 17px 65px;
+        padding: 17px 74px;
+    }
+}
+
+@media (max-width:469px) {
+    .button-span {
+        padding: 17px 54px;
     }
 }

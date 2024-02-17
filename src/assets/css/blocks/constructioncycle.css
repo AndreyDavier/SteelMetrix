@@ -17,14 +17,16 @@
     width: 32%;
 }
 
+
 .cycle-card-img {
-    max-width: 100%;
-    height: 289px;
+    width: 100%;
+    object-fit: cover;
 }
+
 
 .construction-cycle-list {
     display: flex;
-    gap: 2%;
+    gap: 3%;
     margin-bottom: 100px;
 }
 
@@ -137,15 +139,13 @@
     width: 100%;
 }
 
-
-
 .more {
     top: 65px;
 }
 
 
 
-@media (max-width:1336px) {
+@media (max-width:1400px) {
     .construction-cycle-head {
         font-size: 30px;
     }
@@ -190,10 +190,14 @@
 
 }
 
-@media (max-width:1024px) {
+/* @media (max-width:1200px) {
+    
+} */
+
+@media (max-width:1200px) {
     .construction-cycle-list {
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 40px;
     }
 
     .construction-cycle-card {

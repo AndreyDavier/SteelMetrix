@@ -58,14 +58,9 @@
     filter: none
 }
 
-@media (max-width:1336px) {
+@media (max-width:1400px) {
     .examples-card {
         gap: 30px;
-    }
-
-    .examples-img {
-        width: 100%;
-        height: 169px;
     }
 
     .examples-text span {
@@ -73,15 +68,10 @@
     }
 }
 
-@media (max-width:1024px) {
+@media (max-width:1200px) {
     .examples-card {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .examples-img {
-        width: 100%;
-        height: 258px;
     }
 }
 

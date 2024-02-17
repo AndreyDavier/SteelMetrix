@@ -266,6 +266,7 @@ footer {
         grid-template-areas: none;
 
     }
+
     .footer-list-company {
         flex-direction: column;
         gap: 15px;
@@ -273,5 +274,15 @@ footer {
         border-top: none;
         max-width: 100%;
         padding-top: 0;
+    }
+
+    .footer-end {
+        justify-content: none;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 10px;
+    }
+    .footer-end-link{
+        gap: 10px;
     }
 }

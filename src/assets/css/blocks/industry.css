@@ -1,7 +1,7 @@
 .industry-grid {
     display: grid;
     grid-template-columns: repeat(4, calc(25% - 20px));
-    gap: 25px;
+    gap: 26px;
     margin: 0 auto;
     margin-bottom: 100px;
 }
@@ -14,6 +14,10 @@
     justify-content: center;
     width: 100%;
     max-height: 256px;
+}
+
+.grid-item svg {
+    flex: none;
 }
 
 .grid-head {
@@ -76,11 +80,7 @@
 
 
 
-@media (max-width:1336px) {
-    .grid-item {
-        height: 235px;
-    }
-
+@media (max-width:1400px) {
     .grid-head {
         font-size: 18px;
     }
@@ -98,33 +98,20 @@
     .stats-number {
         font-size: 70px;
     }
+}
 
-
-    .industry-grid {
+@media (max-width:1200px) {
+    .stats-list {
         gap: 30px;
     }
 
-}
-
-@media (max-width:1100px) {
     .grid-item:nth-child(2n+2) {
         display: none;
     }
 
     .industry-grid {
-        grid-template-columns: repeat(2, calc(50% - 20px));
+        grid-template-columns: repeat(2, 1fr);
 
-    }
-
-    .grid-item {
-        width: 100%;
-    }
-
-}
-
-@media (max-width:1024px) {
-    .grid-item {
-        height: 210px;
     }
 
     .grid-head {
@@ -140,10 +127,9 @@
     .industry-next {
         display: flex;
     }
-
 }
 
-@media (max-width:660px) {
+@media (max-width:720px) {
     .stats-list {
         gap: 25px;
     }
@@ -151,7 +137,8 @@
     .stats-info {
         font-size: 20px;
     }
-    .stats-number{
+
+    .stats-number {
         font-size: 50px;
     }
 }

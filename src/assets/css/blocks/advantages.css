@@ -16,20 +16,27 @@
 
 .advantages-card-list {
     display: grid;
+    grid-template-columns: repeat(3, calc(32% - 10px));
     gap: 40px;
-    grid-template-columns: repeat(3, calc(32% - 20px));
 }
 
 .advantages-item {
     background: #FFFFFF;
     padding: 50px 25px;
-    width: 100%;
+    max-width: 412px;
+    max-height: 224px;
+    display: flex;
+    gap: 20px;
+}
+
+.advantages-item svg {
+    flex: none;
 }
 
 .advantages-title {
     display: flex;
-    gap: 20px;
-    align-items: center;
+    flex-direction: column;
+    height: 124px;
 }
 
 .advantages-title-text {
@@ -38,7 +45,7 @@
     font-weight: 700;
     line-height: 110%;
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 .advantages-info {
@@ -46,14 +53,13 @@
     font-size: 22px;
     font-weight: 500;
     line-height: 120%;
-    margin: 0;
-    margin-left: 82px;
 }
 
-@media (max-width:1336px) {
+@media (max-width:1400px) {
     .advantages-header {
         font-size: 30px;
     }
+
 
     .advantages-title-text {
         font-size: 24px;
@@ -63,19 +69,20 @@
         font-size: 18px;
     }
 
-    .advantages-card-list {
-        gap: 30px;
-    }
-
     .advantages-item {
         padding: 40px 25px;
     }
+
+    .advantages-card-list {
+        gap: 30px;
+    }
 }
 
-@media (max-width:1024px) {
+@media (max-width:1200px) {
     .advantages-card-list {
-        grid-template-columns: repeat(2, calc(50% - 15px));
-        gap: 30px;
+        grid-template-columns: repeat(2, calc(55% - 100px));
+        justify-content: center;
+        gap: 40px;
     }
 
     .advantages-item {

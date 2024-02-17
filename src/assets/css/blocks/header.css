@@ -119,7 +119,7 @@
 
 
 
-@media (max-width:1336px) {
+@media (max-width:1400px) {
     .header-list {
         gap: 30px;
     }
@@ -134,7 +134,7 @@
     }
 }
 
-@media (max-width:1024px) {
+@media (max-width:1150px) {
     .header-list {
         display: none;
     }
@@ -157,7 +157,7 @@
     }
 }
 
-@media (max-width:575px) {
+@media (max-width:578px) {
     .header-number {
         display: none;
     }

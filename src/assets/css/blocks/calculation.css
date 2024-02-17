@@ -43,7 +43,7 @@
 }
 
 .calculation-text {
-    width: 611px;
+    max-width: 697px;
     margin: 0;
     margin-bottom: 20px;
 }
@@ -64,6 +64,9 @@
 
 .calculation-list {
     margin-bottom: 50px;
+}
+.calculation-item svg{
+    flex: none;
 }
 
 @media (max-width:1336px) {
@@ -93,7 +96,7 @@
 
 }
 
-@media (max-width:1024px) {
+@media (max-width:1200px) {
     .calculation-info {
         flex-direction: column;
     }
