@@ -2,12 +2,25 @@
     max-width: var(--container-width);
     padding: 0 var(--container-gap);
     margin: 0 auto;
-    overflow: hidden;
 }
 
-@media (max-width:1200px) {
-    .container{
+@media (max-width:1400px) {
+    .container {
+        max-width: 1400px;
+        padding: 0 133px;
+    }
+}
+
+@media(max-width:1100px) {
+    .container {
+        /* max-width: 720px; */
         padding: 0 150px;
+    }
+}
+
+@media(max-width:956px) {
+    .container{
+        padding: 90px;
     }
 }
 
@@ -17,7 +30,7 @@
     }
 }
 
-@media(max-width:575px) {
+@media(max-width:715px) {
     .container {
         padding: 0 45px;
     }

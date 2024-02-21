@@ -5,9 +5,8 @@
     letter-spacing: 1.02px;
     text-transform: uppercase;
     background: #EB6329;
-    padding: 18px 85px 18px 116px;
-    height: auto;
-    max-width: 920px;
+    padding: 18px 85px 18px 302px;
+    max-height: 60px;
 }
 
 .header-block {
@@ -28,11 +27,14 @@
 @media (max-width:1400px) {
     .header-span {
         font-size: 30px;
-        /* height: 57px; */
     }
 
     .header-block-svg {
         height: auto;
+    }
+
+    .header-span {
+        padding-left: 133px;
     }
 
 }
@@ -44,17 +46,16 @@
     }
 }
 
-
-@media (max-width:750px) {
+@media (max-width:835px) {
     .header-span {
-        font-size: 24px;
         padding: 18px 85px 18px 56px;
     }
 }
 
-@media (max-width:575px) {
+
+@media (max-width:715px) {
     .header-span {
-        padding: 18px 20px 18px 65px;
+        padding: 18px 20px 18px 45px;
         font-size: 24px;
         /* height: 53px; */
     }
@@ -65,5 +66,11 @@
 
     .span-text {
         text-align: left;
+    }
+}
+
+@media (max-width:445px) {
+    .header-span {
+        max-height: 100px;
     }
 }

@@ -16,6 +16,21 @@
     gap: 10%;
 }
 
+.marker {
+    position: relative;
+}
+
+.marker::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #EB6329;
+}
+
+
 .get-calculation {
     width: 50%;
 }
@@ -65,7 +80,8 @@
 .calculation-list {
     margin-bottom: 50px;
 }
-.calculation-item svg{
+
+.calculation-item svg {
     flex: none;
 }
 

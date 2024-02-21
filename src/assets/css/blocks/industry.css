@@ -129,17 +129,17 @@
     }
 }
 
-@media (max-width:720px) {
+@media (max-width:800px) {
     .stats-list {
-        gap: 25px;
+        gap: 16px;
     }
 
     .stats-info {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .stats-number {
-        font-size: 50px;
+        font-size: 40px;
     }
 }
 
@@ -154,17 +154,14 @@
     }
 
     .stats-info {
-        font-size: 15px;
+        font-size: 14.5px;
         height: 54px;
         border-left: 2px solid #EB6329;
     }
 
-    .stats-list {
-        gap: 16px;
-    }
-
     .stats-info {
         width: 150px;
+        padding-left: 6px;
     }
 
     .stats-item {

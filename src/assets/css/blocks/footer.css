@@ -101,6 +101,7 @@ footer {
     line-height: 100%;
     letter-spacing: 0.36px;
     margin-bottom: 39px;
+    margin-top: 5px;
 }
 
 .footer-location {
@@ -257,13 +258,13 @@ footer {
     }
 }
 
-@media (max-width:672px) {
+@media (max-width:732px) {
     .footer-list-company {
-        gap: 11px;
+        gap: 31px;
     }
 }
 
-@media (max-width:575px) {
+@media (max-width:715px) {
     .footer-block-list {
         grid-template-areas:
             "a ."

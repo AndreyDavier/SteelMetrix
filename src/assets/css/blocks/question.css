@@ -51,22 +51,25 @@
     color: #EB6329;
 }
 
-@media (max-width:1336px) {
+@media (max-width:1400px) {
     .questions-head {
         font-size: 30px;
         width: 497px;
     }
 }
 
-@media (max-width:430px) {
+@media (max-width:620px) {
     .questions-head {
         font-size: 24px;
         width: 340px;
     }
+
     .questions-button-list {
         flex-direction: column;
     }
-    .questions-button-item{
+
+    .questions-button-item {
         width: 340px;
     }
 }
+
