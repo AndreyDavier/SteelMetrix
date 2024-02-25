@@ -100,7 +100,7 @@
     }
 }
 
-@media (max-width:1200px) {
+@media (max-width:1250px) {
     .stats-list {
         gap: 30px;
     }

@@ -4,7 +4,7 @@
     margin: 0 auto;
 }
 
-@media (max-width:1400px) {
+@media (max-width:1630px) {
     .container {
         max-width: 1400px;
         padding: 0 133px;
