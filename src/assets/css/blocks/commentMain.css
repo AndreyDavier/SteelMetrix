@@ -1,0 +1,13 @@
+.commentMain {
+    background: url(/img/commetMain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 367px 0;
+}
+
+.commentMain .construction-head-text{
+    max-width: 638px;
+}
+.commentMain .construction-head-info{
+    max-width: 638px;
+}

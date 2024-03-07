@@ -69,7 +69,7 @@
     }
 }
 
-@media (max-width:445px) {
+@media (max-width:500px) {
     .header-span {
         max-height: 100px;
     }
