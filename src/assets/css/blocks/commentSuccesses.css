@@ -1,0 +1,65 @@
+.companySuccesses {
+    padding-bottom: 130px;
+}
+
+.companySuccesses .companySuccesses-info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.companySuccesses-info {
+    margin-left: 339px;
+    margin-top: 100px;
+}
+
+.companySuccesses .stats-info {
+    border: none;
+    padding-left: 0;
+}
+
+
+.companySuccesses .stats-number {
+    font-size: 34px;
+}
+
+.companySuccesses .stats-text {
+    font-size: 22px;
+}
+
+.companySuccesses-info-head {
+    color: rgb(235, 99, 41);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.companySuccesses-info-main-text {
+    padding-top: 30px;
+}
+
+.companySuccesses-info-main-text h5 {
+    margin-bottom: 10px;
+    color: rgb(70, 70, 70);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: left;
+}
+
+.companySuccesses-info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.companySuccesses-info-main-text p {
+    color: rgb(70, 70, 70);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 130%;
+    text-align: left;
+}

@@ -20,3 +20,6 @@
 @import "./blocks/footer.css";
 @import "./blocks/commentMain.css";
 @import "./blocks/commentCompany.css";
+@import "./blocks/commentSuccesses.css";
+@import "./blocks/commentIndustry.css";
+@import "./blocks/commentQuestion.css";

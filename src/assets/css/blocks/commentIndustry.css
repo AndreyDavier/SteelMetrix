@@ -1,0 +1,20 @@
+.comment-industry .industry-grid {
+    grid-template-columns: repeat(3, calc(25% - 25px));
+    gap: 40px;
+    justify-content: end;
+}
+
+.comment-industry-geography-head {
+    color: rgb(235, 99, 41);
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.comment-industry-geography-img {
+    max-width: 1282px;
+    max-height: 779px;
+    margin-bottom: 100px;
+}
