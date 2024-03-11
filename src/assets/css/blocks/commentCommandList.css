@@ -1,0 +1,41 @@
+.commentCommandList{
+    padding-bottom: 100px;
+}
+.commentCommandList .header-span {
+    padding-right: 225px;
+}
+
+.commentCommandList-name {
+    color: rgb(70, 70, 70);
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 120%;
+    text-align: left;
+}
+
+.commentCommandList-job-title {
+    color: rgb(70, 70, 70);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 130%;
+    text-align: left;
+}
+
+.commentCommandList-foto {
+    width: 299px;
+    max-width: 100%;
+    height: 219px;
+    background: rgb(196, 196, 196);
+}
+
+.commentCommandList-grid {
+    display: grid;
+    grid-template-columns: repeat(3, calc(25% - 25px));
+    gap: 40px;
+    justify-content: end;
+}
+.commentCommandList-grid-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

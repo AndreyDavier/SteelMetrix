@@ -1,0 +1,105 @@
+.commentFormImplementation {
+    padding: 100px 0;
+    background-color: rgb(70, 70, 70);
+}
+
+.commentFormImplementation-main-info {
+    max-width: 638px;
+}
+
+.commentFormImplementation-header {
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: left;
+}
+
+.commentFormImplementation-text {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 130%;
+    text-align: left;
+}
+
+.commentFormImplementation-main-form {
+    padding: 60px 60px;
+    max-width: 638px;
+    background-color: rgb(255, 255, 255);
+}
+
+.commentFormImplementation .container {
+    display: flex;
+    gap: 40px;
+}
+
+.commentFormImplementation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.commentFormImplementation-form input {
+    padding: 14px 15px;
+    width: 518px;
+    border: 1px solid rgb(171, 171, 171);
+    color: rgb(171, 171, 171);
+}
+
+.commentFormImplementation-form .div-select {
+    padding: 14px 15px;
+    width: 518px;
+    border: 1px solid rgb(171, 171, 171);
+    color: rgb(171, 171, 171);
+}
+
+.commentFormImplementation-form select {
+    width: 100%;
+    border: none;
+}
+
+.commentFormImplementation-form textarea {
+    padding: 14px 0 0 15px;
+}
+
+.agreement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.agreement input {
+    margin-bottom: 19px
+}
+
+.agreement p {
+    color: rgb(70, 70, 70);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 120%;
+    text-align: left;
+}
+
+.agreement span {
+    color: rgb(235, 99, 41)
+}
+
+.button-form {
+    padding: 18px 26px;
+    margin-top: 15px;
+    border: 1px solid rgb(26, 26, 26);
+    color: rgb(26, 26, 26);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.button-form:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(26, 26, 26);
+}

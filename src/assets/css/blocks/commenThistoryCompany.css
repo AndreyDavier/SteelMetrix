@@ -1,0 +1,46 @@
+.commenThistoryCompany {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.commenThistoryCompany-info-item {
+    padding: 40px 0 40px 113px;
+    max-width: 977px;
+    position: relative;
+    border-top: 1px solid rgb(216, 216, 216);
+    border-bottom: 1px solid rgb(216, 216, 216);
+
+}
+
+.commenThistoryCompany-info-list {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.commenThistoryCompany-main-text {
+    margin-bottom: 30px;
+}
+
+.commenThistoryCompany-extra-info {
+    display: flex;
+    gap: 40px;
+}
+
+.commenThistoryCompany-info-year {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 55px;
+    bottom: 1px;
+    color: rgb(70, 70, 70);
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 0%;
+    text-align: left;
+    transition: 0.15s;
+}
+
+.commenThistoryCompany-info-year:hover {
+    color: rgb(235, 99, 41);
+}
